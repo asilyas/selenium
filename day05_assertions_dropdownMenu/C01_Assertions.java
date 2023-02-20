@@ -65,7 +65,7 @@ public class C01_Assertions {
          }
       @AfterClass
      public static void teardown(){
-         //  driver.close();
+          driver.close();
       }
 
      }
