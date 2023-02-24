@@ -19,9 +19,7 @@ public class C03_ExplicitlyWait {
     public void test01(){
 
         WebDriverManager.edgedriver().setup();
-
         WebDriver driver= new EdgeDriver();
-
         driver.manage().window().maximize();
 
         //3. https://the-internet.herokuapp.com/dynamic_controls adresine gidin.

@@ -17,10 +17,9 @@ public class C02_ExplicitlyWait {
     @Test
 
     public void test01() throws InterruptedException {
+
         WebDriverManager.edgedriver().setup();
-
         WebDriver driver= new EdgeDriver();
-
         driver.manage().window().maximize();
 
         // amazon anasayfaya gidin

@@ -4,13 +4,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 
-public class prakticeOdev1 {
+public class practiceOdev1 {
 
     /* ...Exercise3...
     go to url : https://www.techlistic.com/p/selenium-practice-form.html

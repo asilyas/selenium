@@ -43,7 +43,7 @@ public class C05_WebTables extends TestBase {
         for (WebElement eachDATA:besinciSutunList) {
             System.out.println(satirSayisi++ +"--"+eachDATA.getText());
         }
-        //  8.Satir ve sutun sayisini parametre olarak alip, hucredeki bilgiyi döndüren bir method olusturun
+        //  8. Satir ve sutun sayisini parametre olarak alip, hucredeki bilgiyi döndüren bir method olusturun
 
         System.out.println("istenen data: \n"+getData(3,5));
 

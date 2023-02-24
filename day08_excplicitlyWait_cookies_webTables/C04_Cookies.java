@@ -21,9 +21,7 @@ public class C04_Cookies extends TestBase {
 
         int siraNo=1;
 
-        for (Cookie eachCookie:cookiesSeti
-
-        ) {
+        for (Cookie eachCookie:cookiesSeti) {
 
             System.out.println(siraNo + "- " + eachCookie.toString());
 
@@ -55,9 +53,7 @@ public class C04_Cookies extends TestBase {
 
         siraNo=1;
 
-        for (Cookie eachCookie:cookiesSeti
-
-        ) {
+        for (Cookie eachCookie:cookiesSeti) {
 
             System.out.println(siraNo + "- " + eachCookie.toString());
 
@@ -87,9 +83,7 @@ public class C04_Cookies extends TestBase {
 
         cookiesSeti= driver.manage().getCookies();
 
-        for (Cookie eachCookie:cookiesSeti
-
-        ) {
+        for (Cookie eachCookie:cookiesSeti) {
 
             Assert.assertFalse(eachCookie.getName().equals("skin"));
 
@@ -103,7 +97,7 @@ public class C04_Cookies extends TestBase {
 
         System.out.println(cookiesSeti.size());
 
-        Assert.assertTrue(cookiesSeti.size()==0);
+        Assert.assertEquals(cookiesSeti.size(),0);
 
     }
 
